@@ -83,7 +83,7 @@
         </div>
         <div class="slider">
             <div id="top" class="container">
-                <ul class="rslides" id="slider4">
+                <ul class="rslides" id="sesame-oil">
                     <li class="basefont">
                         <!-- <img src="images/slide.jpg" class="img-responsive" alt=""> -->
                         <div class="col-md-7">
@@ -111,6 +111,70 @@
             </div>
         </div>
     </div>
+
+    <!-- groundnut oil -->
+
+    <section class="whitesection">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-5">
+    				<figure>
+    					<img src="images/ground-nut-oil.png" alt="">
+    				</figure>
+    			</div>
+    			<div class="col-md-7">
+    				<h2>Cold Pressed Groundnut/Peanut Oil</h2>
+    				<ul>
+    					<li></li>
+    					<li></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <!-- cocunut oil -->
+
+    <section class="show-reel">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-7">
+    				<h2>Cold Pressed Cocunut Oil</h2>
+    				<ul>
+    					<li></li>
+    					<li></li>
+    				</ul>
+    			</div>
+    			<div class="col-md-5">
+    				<figure>
+    					<img src="images/coconutoil.png" alt="">
+    				</figure>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   <!-- groundnut oil -->
+
+    <section class="whitesection">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-5">
+    				<figure>
+    					<img src="images/murunga-powder.png" alt="">
+    				</figure>
+    			</div>
+    			<div class="col-md-7">
+    				<h2>Cold Pressed Groundnut/Peanut Oil</h2>
+    				<ul>
+    					<li></li>
+    					<li></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
     <!-- slider over -->
     <div id="natural" class="natural">
         <div class="container">
@@ -133,6 +197,7 @@
         </div>
     </div>
     <!-- benefits end-->
+
     <!-- differantiate -->
     <div id="versus" class="show-reel text-center">
         <div class="container">
@@ -432,7 +497,7 @@
 					$(document).ready(function() {
 					    $('#menuFixed').scrollToFixed();
 
-							$("#slider4").responsiveSlides({
+							$("#sesame-oil").responsiveSlides({
 							    auto: true,
 							    pager: true,
 							    nav: true,
@@ -447,13 +512,6 @@
 							});
 					});
 
-					addEventListener("load", function() { 
-						setTimeout(hideURLbar, 0); 
-					}, false);
-
-					function hideURLbar() {
-						window.scrollTo(0, 1); 
-					}
     </script>
 
     <script type="text/javascript">

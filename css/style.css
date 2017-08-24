@@ -617,7 +617,12 @@ span.second {
 
 .show-reel {
     background: #fc0;
-    padding-bottom: 3em;
+    padding: 2rem;
+}
+
+.whitesection {
+    background: #fff;
+    padding: 2rem;
 }
 
 .show-reel h5 span {
