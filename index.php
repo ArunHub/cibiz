@@ -87,8 +87,8 @@
                     <li class="basefont">
                         <!-- <img src="images/slide.jpg" class="img-responsive" alt=""> -->
                         <div class="col-md-7">
-                            <div class="slide-text-info">
-                                <h1>Introducing <span>Cibiz N<sup>2</sup><span style="font-size:0.6em">Natural Nutrition</span></span></h1>
+                            <div class="intro-text">
+                                <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
                                 <h2>Cold Pressed Organic Sesame Oil.</h2>
                                 <div class="slide-text">
                                     <ul>
@@ -123,11 +123,14 @@
     				</figure>
     			</div>
     			<div class="col-md-7">
-    				<h2>Cold Pressed Groundnut/Peanut Oil</h2>
-    				<ul>
-    					<li></li>
-    					<li></li>
-    				</ul>
+                    <div class="intro-text">
+                        <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
+        				<h2>Cold Pressed Groundnut/Peanut Oil</h2>
+        				<ul>
+        					<li></li>
+        					<li></li>
+        				</ul>
+                    </div>
     			</div>
     		</div>
     	</div>
@@ -135,15 +138,18 @@
 
     <!-- cocunut oil -->
 
-    <section class="show-reel">
+    <section class="yellowsection">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-7">
-    				<h2>Cold Pressed Cocunut Oil</h2>
-    				<ul>
-    					<li></li>
-    					<li></li>
-    				</ul>
+                    <div class="intro-text">
+                        <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
+                        <h2>Cold Pressed Cocunut Oil</h2>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
     			</div>
     			<div class="col-md-5">
     				<figure>
@@ -154,9 +160,9 @@
     	</div>
     </section>
 
-   <!-- groundnut oil -->
+   <!-- murunga-powder -->
 
-    <section class="whitesection">
+    <section class="whitesection murunga-powder">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-5">
@@ -165,11 +171,15 @@
     				</figure>
     			</div>
     			<div class="col-md-7">
-    				<h2>Cold Pressed Groundnut/Peanut Oil</h2>
-    				<ul>
-    					<li></li>
-    					<li></li>
-    				</ul>
+                    <div class="intro-text">
+                        <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
+        				<h2>Organic Moringa Oleifera Powder <span class="orange">MURUNGA LEAF POWDER</span> from freshly harvested organic leaves.</h2>
+        				<div class="murunga-powder-content">
+                            <p>The powder is abundant with vitamins, minerals complete amino-acids and dietary fibre.</p>
+                            <p class=""><strong>Benefits:</strong> Moringa power increases appetite, boosts Stamina, lowers cholesterol, treats depression, improves immunity, excretes toxins, heals wounds, and a source of anti-oxidant.</p>  
+                            <p><strong>Usage:</strong> Enjoy among others, a delicious Moringa drink, with half a teaspoon of Moringa powder, add a teaspoon of honey, squeeze a little of lemon, mix them together and add water. You can also drop a spoon of Moringa into your soup after cooking.</p>
+                        </div>
+                    </div>
     			</div>
     		</div>
     	</div>
@@ -199,7 +209,7 @@
     <!-- benefits end-->
 
     <!-- differantiate -->
-    <div id="versus" class="show-reel text-center">
+    <div id="versus" class="yellowsection text-center">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -300,7 +310,7 @@
         </div>
     </div>
     <!-- gallery -->
-    <div id="gallery" class="screen-shot-gallery">
+    <div id="gallery" class="graysection">
         <div class="container">
             <div class="section-head text-center">
                 <h3><span class="frist"> </span>GALLERY<span class="second"> </span></h3>
@@ -376,7 +386,7 @@
         </div>
     </div>
     <!-- video -->
-    <div id="video" class="show-reel text-center">
+    <div id="video" class="yellowsection text-center">
         <div class="container">
             <div class="section-head text-center">
                 <h3><span class="frist"> </span>VIDEOS<span class="second"> </span></h3>
@@ -401,7 +411,7 @@
         </div>
     </div>
     <!-- about us -->
-    <div id="about" class="team">
+    <div id="about" class="graysection">
         <div class="container">
             <div class="section-head text-center">
                 <h3><span class="frist"> </span>ABOUT US<span class="second"> </span></h3>

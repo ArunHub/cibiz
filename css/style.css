@@ -30,10 +30,10 @@ body a {
 	color: #ffcc00;
 }
 
-.show-reel .glyphicon-tint{
-	color: #333;
+img {
+    max-width: 100%;
+    height: auto;
 }
-
 
 /*-----start-header----*/
 
@@ -378,18 +378,23 @@ nav.top-nav a#pull {
     border: 2px solid #282528;
 }
 
-.slide-text-info h1 {
+.intro-text h1 {
     font-size: 2em;
     font-weight: 100;
     color: #282528;
 }
 
-.slide-text-info h1 span {
+.intro-text h1 span {
     font-weight: 800;
     font-family: calligraphillip_trialregular;
 }
 
-.slide-text-info h2 {
+.intro-text h1 small {
+    color: inherit;
+    font-weight: inherit;
+}
+
+.intro-text h2 {
     color: #282528;
     padding: 0;
     margin: 0.3em 0;
@@ -398,7 +403,7 @@ nav.top-nav a#pull {
 }
 
 
-/*.slide-text-info{	
+/*.intro-text{	
 	text-align: left;
 	position: absolute;
 	left: 0;
@@ -439,7 +444,7 @@ nav.top-nav a#pull {
     margin: 0 0 0.3em;
 }
 
-.slide-text-info {
+.intro-text {
     margin-top: 3em;
 }
 
@@ -605,48 +610,84 @@ span.second {
 }
 
 
-/*----screen-shot-gallery----*/
+/*----graysection----*/
 
-.screen-shot-gallery {
+.graysection {
     background: #FAFAFA;
-    padding: 3em 0;
+}
+
+.graysection,
+.yellowsection,
+.whitesection {
+    padding: 2rem 0;
 }
 
 
 /*-----*/
 
-.show-reel {
+.yellowsection {
     background: #fc0;
-    padding: 2rem;
 }
 
 .whitesection {
     background: #fff;
-    padding: 2rem;
 }
 
-.show-reel h5 span {
-    width: 37px;
-    height: 43px;
-    display: inline-block;
-    background: url('../images/play-btn.png') no-repeat 0px 0px;
-    vertical-align: middle;
+.yellowsection .glyphicon-tint{
+    color: #333;
 }
 
-.show-reel h5 span:hover {
-    opacity: 0.8;
-}
-
-.show-reel h5 {
-    font-size: 2em;
-    font-weight: 100;
-    letter-spacing: 0.5em;
-    padding: 6em 0;
-}
-
-.show-reel p {
+.yellowsection p {
     text-align: justify;
     line-height: 1.6;
+}
+
+.whitesection.murunga-powder {
+    border-bottom: 5px solid #005d21;
+}
+
+.murunga-powder h2{
+    color: #2f9a4a;
+    line-height: 1.6;
+}
+
+.murunga-powder-content {
+    background: #2f9a4a;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    box-shadow: 0px 30px 30px -15px rgba(0, 0, 0, 0.3);
+}
+
+.murunga-powder-content p {
+    margin-left: 50px;
+}
+
+.murunga-powder-content p strong{
+    color: #ffcc00;
+}
+
+.murunga-powder-content:before,
+.murunga-powder-content:after {
+    position: absolute;
+    content: "";
+    top:15px;
+    left:15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: inset 1px 1px 10px 2px rgba(12, 12, 12, 0.62);
+}
+
+.murunga-powder-content:after {
+    bottom: 15px;
+    top: auto;
+}
+
+.orange {
+    background: #f9a231;
+    color: #fff;
 }
 
 
@@ -1279,11 +1320,11 @@ p.copy a:hover {
         margin-top: 1em;
         text-align: center;
     }
-    .slide-text-info h1 {
+    .intro-text h1 {
         font-size: 1.5em;
         margin: 0.5em 0;
     }
-    .slide-text-info h2 {
+    .intro-text h2 {
         font-size: 0.9em;
     }
     .slide-text {
@@ -1330,10 +1371,6 @@ p.copy a:hover {
         margin: 0.8em 0em;
         display: block;
     }
-    .show-reel h5 {
-        padding: 3em 0;
-        font-size: 1.8em;
-    }
 }
 
 
@@ -1353,7 +1390,7 @@ p.copy a:hover {
         margin-top: 1em;
         text-align: center;
     }
-    .slide-text-info h1 {
+    .intro-text h1 {
         font-size: 1.2em;
         margin: 0.0em 0;
     }
@@ -1402,10 +1439,6 @@ p.copy a:hover {
         margin: 0.5em 0em;
         display: block;
     }
-    .show-reel h5 {
-        padding: 3em 0;
-        font-size: 1.8em;
-    }
     .subscribe input[type="text"] {
         width: 100%;
     }
@@ -1441,7 +1474,7 @@ p.copy a:hover {
         margin-top: 1em;
         text-align: center;
     }
-    .slide-text-info h1 {
+    .intro-text h1 {
         margin: 0.0em 0;
         line-height: 1.8em;
     }
@@ -1490,10 +1523,6 @@ p.copy a:hover {
         margin: 0em 0em;
         display: block;
     }
-    .show-reel h5 {
-        padding: 2em 0;
-        font-size: 1.2em;
-    }
     .subscribe input[type="text"] {
         width: 100%;
     }
@@ -1512,7 +1541,7 @@ p.copy a:hover {
         background: #F9E514;
     }
 
-    .screen-shot-gallery {
+    .graysection {
         padding: 0em 0;
     }
     .featured {
@@ -1586,7 +1615,7 @@ p.copy a:hover {
         .big-btns {
             margin: 0;
         }
-        .slide-text-info {
+        .intro-text {
             margin-top: 2em;
         }
     }
@@ -1600,7 +1629,7 @@ p.copy a:hover {
         .top-nav ul li a:hover {
             color: #005D21;
         }
-        .slide-text-info {
+        .intro-text {
             margin-top: 1em;
         }
     }
