@@ -81,22 +81,21 @@
                 </div>
             </div>
         </div>
-        <div class="slider">
+        <div class="sesame-oil">
             <div id="top" class="container">
-                <ul class="rslides" id="sesame-oil">
-                    <li class="basefont">
-                        <!-- <img src="images/slide.jpg" class="img-responsive" alt=""> -->
+            <div class="row">
+
                         <div class="col-md-7">
                             <div class="intro-text">
                                 <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
-                                <h2>Cold Pressed Organic Sesame Oil.</h2>
-                                <div class="slide-text">
+                                <h2>Cold Pressed Organic Sesame Oil</h2>
+                                
                                     <ul>
-                                        <li><span> </span>Extracted using Wooden Mortar and Pestle </li>
-                                        <li><span> </span>Also called as Mara-Chekku Nallennai (in Tamil) </li>
+                                        <li><span>&gt;</span>Extracted using Wooden Mortar and Pestle </li>
+                                        <li><span>&gt;</span>Also called as Mara-Chekku Nallennai (in Tamil) </li>
                                     </ul>
-                                </div>
-                                <div class="clearfix"> </div>
+                               
+                               
                                 <div class="big-btns page-scroll">
                                     <a class="btn btn-invert teal" href="#">Buy Now</a>
                                     <a class="btn btn-invert teal scroll" href="#health">More Benefits</a>
@@ -104,10 +103,9 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <img src="images/divice-in-hand.png" class="img-responsive center-block" title="demo" />
+                            <img src="images/cold-pressed-sesame-oil.png" class="img-responsive center-block" title="demo" />
                         </div>
-                    </li>
-                </ul>
+                        </div>
             </div>
         </div>
     </div>
@@ -118,18 +116,18 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-5">
-    				<figure>
-    					<img src="images/ground-nut-oil.png" alt="">
+    				<figure class="text-center">
+    					<img src="images/ground-nut-oil.png" alt="" class="img-responsive center-block">
     				</figure>
     			</div>
     			<div class="col-md-7">
                     <div class="intro-text">
                         <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
         				<h2>Cold Pressed Groundnut/Peanut Oil</h2>
-        				<ul>
-        					<li></li>
-        					<li></li>
-        				</ul>
+                        <ul>
+                            <li><span>&gt;</span>At low temperatures, the fatty acid bonds in the groundnut don’t get destroyed, preserving the heart protecting abilities intact, along with vitamins and minerals.</li>
+                            <li><span>&gt;</span>Groundnuts, with their high Niacin (of the Vitamin B family) content, help stabilise blood sugars.</li>
+                        </ul>
                     </div>
     			</div>
     		</div>
@@ -146,14 +144,15 @@
                         <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
                         <h2>Cold Pressed Cocunut Oil</h2>
                         <ul>
-                            <li></li>
-                            <li></li>
+                            <li><span>&gt;</span>During cold pressing, the oil from the coconut meat is mechanically pressed at temperatures not exceeding 120 degrees Fahrenheit, to preserve its healthful benefits.  </li>
+                            <li><span>&gt;</span>Pure cold-pressed coconut oil is also not refined, processed or deodorized.</li>
+                            <li><span>&gt;</span>Coconut oil has been found to be effective in weight loss and cardiovascular disease, and as an antimicrobial agent, among its many other health benefits.</li>
                         </ul>
                     </div>
     			</div>
     			<div class="col-md-5">
-    				<figure>
-    					<img src="images/coconutoil.png" alt="">
+    				<figure class="text-center">
+    					<img src="images/coconutoil.png" alt="" class="img-responsive center-block">
     				</figure>
     			</div>
     		</div>
@@ -166,8 +165,8 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-5">
-    				<figure>
-    					<img src="images/murunga-powder.png" alt="">
+    				<figure class="text-center">
+    					<img src="images/murunga-powder.png" alt="" class="img-responsive center-block">
     				</figure>
     			</div>
     			<div class="col-md-7">
@@ -175,9 +174,19 @@
                         <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
         				<h2>Organic Moringa Oleifera Powder <span class="orange">MURUNGA LEAF POWDER</span> from freshly harvested organic leaves.</h2>
         				<div class="murunga-powder-content">
-                            <p>The powder is abundant with vitamins, minerals complete amino-acids and dietary fibre.</p>
-                            <p class=""><strong>Benefits:</strong> Moringa power increases appetite, boosts Stamina, lowers cholesterol, treats depression, improves immunity, excretes toxins, heals wounds, and a source of anti-oxidant.</p>  
-                            <p><strong>Usage:</strong> Enjoy among others, a delicious Moringa drink, with half a teaspoon of Moringa powder, add a teaspoon of honey, squeeze a little of lemon, mix them together and add water. You can also drop a spoon of Moringa into your soup after cooking.</p>
+                            <p>This powder is abundant with vitamins, minerals complete amino-acids and dietary fibre.</p>
+                            <p><strong>Benefits:</strong> </p>
+                            <ul>
+                                <li><span>&gt;</span>Moringa powder increases appetite, boosts stamina, lowers cholesterol, treats depression, improves immunity, excretes toxins, heals wounds, and a source of anti-oxidant.</li>
+                                <li><span>&gt;</span>Moringa soup builds immunity power against joint pain, mouth ulcer, stomach ulcer, fever and eye diseases.</li>
+                            </ul>
+                            <p><strong>Usage:</strong></p>
+                            <ul>
+                                <li><span>&gt;</span>Enjoy among others, a delicious Moringa drink, with half a teaspoon of Moringa powder,</li>
+                                <li><span>&gt;</span>Add a teaspoon of honey,</li>
+                                <li><span>&gt;</span>Squeeze a little of lemon, mix them together and add water.</li>
+                                <li><span>&gt;</span>You can also drop a spoon of Moringa into your soup after cooking.</li>
+                            </ul>    
                         </div>
                     </div>
     			</div>
@@ -186,10 +195,10 @@
     </section>
 
     <!-- slider over -->
-    <div id="natural" class="natural">
+    <div id="natural" class="whitesection">
         <div class="container">
             <div class="section-head text-center">
-                <h3><span class="frist"> </span>About <strong style="font-family: calligraphillip_trialregular;font-size: 24px;">Cibiz N<sup>2</sup> Natural Nutrition</strong><span class="second"> </span></h3>
+                <h2><span class="frist"> </span>About <strong class="cibifont">Cibiz N<sup>2</sup> Natural Nutrition</strong><span class="second"> </span></h2>
             </div>
             <div class="row text-justify">
                 <div class="col-sm-6">
@@ -199,7 +208,7 @@
                     <p><span class="glyphicon glyphicon-tint"></span> In the process, the natural properties and benefits provided have been traded off and the oil also loses several beneficial ingredients.</p>
                 </div>
                 <div class="col-sm-6">
-                    <p><span class="glyphicon glyphicon-tint"></span> <strong style="font-family: calligraphillip_trialregular;font-size: 18px;">Cibiz N<sup>2</sup> Natural Nutrition</strong> in its Mara chekku (Ghani) process, the animal movement is replaced by electro mechanical power transmission with a regulated speed control to yield natural or virgin sesame oil with all its properties intact.</p>
+                    <p><span class="glyphicon glyphicon-tint"></span> <strong class="cibifont">Cibiz N<sup>2</sup> Natural Nutrition</strong> in its Mara chekku (Ghani) process, the animal movement is replaced by electro mechanical power transmission with a regulated speed control to yield natural or virgin sesame oil with all its properties intact.</p>
                     <p><span class="glyphicon glyphicon-tint"></span> Being an end to end natural extraction process, there is no use of any refining bleaching, or deodorizing agent. The oil thus retains its original unique aroma, rich flavour & colour and all its nutritional value all needed for good health.</p>
                     <p><span class="glyphicon glyphicon-tint"></span> It is suited for Natural Nutrition.</p>
                 </div>
@@ -214,11 +223,11 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-head text-center">
-                        <h3><span class="frist"> </span>Where <span style="font-family: calligraphillip_trialregular;display: inline;font-size:30px;background: transparent;">Cibiz N<sup>2</sup></span> differ from others <span class="second"> </span></h3>
+                        <h2><span class="frist"> </span>Where <span class="cibifont" style="display: inline;background: transparent;">Cibiz N<sup>2</sup></span> differ from others <span class="second"> </span></h2>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <h4><strong>Refined Oil</strong></h4>
+                    <h3><strong>Refined Oil</strong></h3>
                     <p><span class="glyphicon glyphicon-tint"></span> Cooking oil manufacture involves, grinding the seeds, pressing, and extruding the oil from them. In extracting, a volatile hydrocarbon such as hexane is used as a solvent. Ninety percent of the solvent remaining in the extracted oil simply evaporates, and, the rest is retrieved with the use of a stripping column. The oil is boiled by steam, and the lighter hexane floats upward. As it condenses, it is collected.</p>
                     <p><span class="glyphicon glyphicon-tint"></span> After extracting, the oil is refined, to remove color, odour. Refining consists of heating the oil to between <strong>107 and 188 degrees Fahrenheit</strong> and mixing an alkaline substance such as sodium hydroxide or sodium carbonate with it. Soap forms from the fatty acids and the alkaline additive, and it is usually removed by centrifuge. The oil is further washed to remove traces of soap and then dried. Further washing and refining follows, and then the oil is filtered and/or distilled. </p>
                     <p><span class="glyphicon glyphicon-tint"></span> Oils are also degummed at this time by treating them with water heated to between <strong>188 and 206 degrees Fahrenheit</strong>, steam, or water with acid. The gums, most of which are phosphatides, precipitate out, and the dregs are removed by centrifuge.</p>
@@ -227,12 +236,12 @@
                     <p><span class="glyphicon glyphicon-tint"></span> It is then ready for packaging.</p>
                 </div>
                 <div class="col-sm-6">
-                    <h4><strong style="font-family: calligraphillip_trialregular;font-size:20px;">Cibiz N<sup>2</sup> Cold Pressed Oil</strong></h4>
+                    <h3><strong class="cibifont">Cibiz N<sup>2</sup> Cold Pressed Oil</strong></h3>
                     <p><span class="glyphicon glyphicon-tint"></span> The cold processed oil extraction has not been defined. Traditional extraction using wooden mortars & pestle were not in practice in North America & Europe, where seeds were roasted and beaten into a paste before being boiled in water; the oil that rose to the surface was then skimmed off.</p>
                     <p><span class="glyphicon glyphicon-tint"></span> Over time, extracting vegetable oils has become more and more efficient. Extraction through expellers operate on a mechanical press principle within the room temperature (<strong>40-70 Fahrenheit</strong>) were called as cold pressed.
                     </p>
                     <p><span class="glyphicon glyphicon-tint"></span> India is using the same technology for oil extraction now. Being a tropical country, the temperature is ranging between 80-120 Fahrenheit. The expellers with its iron parts further raises its temperature due to frictions and the extraction is done in a temperature around <strong>180-220 Fahrenheit</strong>. So, calling this extraction as cold pressed, is a misnomer.</p>
-                    <p><span class="glyphicon glyphicon-tint"></span><strong style="font-family: calligraphillip_trialregular;font-size: 18px;">Cibiz N<sup>2</sup> Natural Nutrition Cold Pressed Sesame Oil</strong> is extracted following a rich heritage cold process that originated thousands of years from India, by using <strong>wooden mortar and pestle (Maram chekku/Khacha Ghani)</strong>, an all natural way to extract oil retaining all its nutrition.</p>
+                    <p><span class="glyphicon glyphicon-tint"></span><strong class="cibifont">Cibiz N<sup>2</sup> Natural Nutrition Cold Pressed Sesame Oil</strong> is extracted following a rich heritage cold process that originated thousands of years from India, by using <strong>wooden mortar and pestle (Maram chekku/Khacha Ghani)</strong>, an all natural way to extract oil retaining all its nutrition.</p>
                     <p><span class="glyphicon glyphicon-tint"></span> Oil is cold-pressed in small batches at controlled low temperatures such that it is more resistant to heat than any other oil. The extraction is then slightly filtered to remove sediments, before being bottled.</p>
                     <p><span class="glyphicon glyphicon-tint"></span> Being an end to end natural extraction process, there is no use of any refining, bleaching, or deodorizing agent.</p>
                     <p><strong><span class="glyphicon glyphicon-tint"></span> The oil thus retains its original unique aroma, rich flavour & colour and all its nutritional value
@@ -245,7 +254,7 @@
     <div id="health" class="features">
         <div class="container">
             <div class="section-head text-center">
-                <h3><span class="frist"> </span>Health benefits of <span style="font-family: calligraphillip_trialregular;display: inline;font-size:32px;background: transparent;">Cibiz N<sup>2</sup> Cold pressed sesame Oil</span> <span class="second"> </span></h3>
+                <h2><span class="frist"> </span>Health benefits of <span class="cibifont" style="display: inline;background: transparent;">Cibiz N<sup>2</sup> Cold pressed sesame Oil</span> <span class="second"> </span></h2>
             </div>
             <div class="features-grids">
                 <div class="col-md-4 features-grid">
@@ -275,9 +284,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 features-grid">
-                    <div class="big-divice">
-                        <img src="images/divice.png" class="img-responsive" title="features-demo" />
-                    </div>
+                    <figure class="text-center">
+                        <img src="images/benefits-cold-pressed-sesame-oil.png" class="img-responsive center-block" title="features-demo" />
+                    </figure>
                 </div>
                 <div class="col-md-4 features-grid">
                     <div class="features-grid-info">
@@ -313,67 +322,67 @@
     <div id="gallery" class="graysection">
         <div class="container">
             <div class="section-head text-center">
-                <h3><span class="frist"> </span>GALLERY<span class="second"> </span></h3>
+                <h2><span class="frist"> </span>GALLERY<span class="second"> </span></h2>
             </div>
         </div>
         <div class="team-members">
             <div class="container">
-                <div class="col-md-4 team-member">
+                <div class="col-md-4">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/team-member1.jpg" />
                                 <h5>13th century sculpture on oil extraction in Tamilnadu</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/team-member4.jpg" />
                                 <h5>Oil extraction in Northern state of India</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/thailand.jpg" />
                                 <h5>Thailand</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/arabian-country1.jpg" />
                                 <h5>Arabian Country(1)</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 team-member">
+                <div class="col-md-4">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/team-member2.jpg" />
                                 <h5>Cheku of different regions</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/western-state-of-india.jpg" />
                                 <h5>Western State Of India</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/pakistan.jpg" />
                                 <h5>Pakistan</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/western-india.jpg" />
                                 <h5>Western India</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 team-member">
+                <div class="col-md-4">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/team-member3.jpg" />
                                 <h5>Oil extraction in Srilanka during early 20th century</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/arabian-country.jpg" />
                                 <h5>In Arabian Country</h5>
                             </div>
-                            <div class="team-member-info">
+                            <div class="gallery-info">
                                 <img class="img-thumbnail" src="images/arabian-country2.jpg" />
                                 <h5>Arabian Country(2)</h5>
                             </div>
@@ -389,7 +398,7 @@
     <div id="video" class="yellowsection text-center">
         <div class="container">
             <div class="section-head text-center">
-                <h3><span class="frist"> </span>VIDEOS<span class="second"> </span></h3>
+                <h2><span class="frist"> </span>VIDEOS<span class="second"> </span></h2>
             </div>
             <div class="row">
                 <div class="col-sm-6">
@@ -414,28 +423,42 @@
     <div id="about" class="graysection">
         <div class="container">
             <div class="section-head text-center">
-                <h3><span class="frist"> </span>ABOUT US<span class="second"> </span></h3>
+                <h2><span class="frist"> </span>ABOUT US<span class="second"> </span></h2>
                 <p>We are a team of successful businessmen who are motivated to resurrect the traditional rural technologies.</p>
                 <p>Mara Chekku Nalla ennai is our first target for all the reasons outlined above and more.</p>
                 <p>We would faciliate several rural youth to turn into successful entrepreneurs and re-establish the pride of our maram chekku nalla ennai.</p>
-                <h4><strong>Still Waiting ? Why not grab a Sample Product ? For Contact , refer below</strong></h4>
+                <h3><strong>Still Waiting ? Why not grab a Sample Product ? For Contact , refer below</strong></h3>
             </div>
         </div>
     </div>
     <div class="clearfix"> </div>
     <div id="contact" class="getintouch">
         <div class="container">
-            <div class="section-head text-center">
-                <h3><span class="frist"> </span>CONTACT US<span class="second"> </span></h3>
-                <p>Manufactured & Marketed by : M/s. CIBI Enterprises</p>
-                <h4><strong>No.1072/89, Poonamalle High Road, Koyambedu, Chennai - 600107. Tamil Nadu</strong></h4>
-                <h4><strong>+91-9952931343 / +91 44-26263081</strong></h4>
-                <h4><strong><a href="mailto:cibizbala@cibienterprises.in">cibizbala@cibienterprises.in</a></strong></h4>
+            <div class="section-head text-center row">
+            <div class="col-sm-12">                
+                <h2><span class="frist"> </span>CONTACT US<span class="second"> </span></h2>
+                
+                <h3 class="orange"><strong>M/s. CIBI Enterprises</strong></h3>
             </div>
-            <!---->
+            <div class="col-md-6">
+                <p class="green">Manufactured from:</p>
+                <p>6 - 121/1, Karuppambulam village Vedaraniyam Taluk - 614707, Nagapattinam District, TamilNadu</p>
+                <p>+91-9952931343 / 04369 274397</p>
+                <p><a href="mailto:balucibi@yahoo.co.in">balucibi@yahoo.co.in</a></p>
+                <p><a href="mailto:cibizbala@cibienterprises.in">cibizbala@cibienterprises.in</a></p>
+            </div>
+            <div class="col-md-6">
+                <p class="green">Marketed by:</p>
+                <p>No.1072/89, Poonamalle High Road, Koyambedu, Chennai - 600107. Tamil Nadu</p>
+                <p>+91-9952931343 / +91 44-26263081</p>
+                <p><a href="mailto:balucibi@yahoo.co.in">balucibi@yahoo.co.in</a></p>
+                <p><a href="mailto:cibizbala@cibienterprises.in">cibizbala@cibienterprises.in</a></p>
+            </div>
+            </div>
+            
             <div class="col-md-8 getintouch-left">
                 <div class="contact-form col-md-10">
-                    <h3>Say hello!</h3>
+                    <h2>Say hello!</h2>
                     <form method="POST">
                         <input type="text" name="name" placeholder="Name" required />
                         <input type="email" name="email" placeholder="Email" required />
@@ -446,7 +469,7 @@
                     <?php
                 if (isset($_REQUEST['email']) && $_REQUEST['email'] != '' )  {
                 
-                $admin_email = "cibizbala@cibienterprises.in";
+                $admin_email = "balucibi@yahoo.co.in";
                 $email = $_REQUEST['email'];
                 $subject = "Cibiz N2 Natural Nutrition";
                 
@@ -486,14 +509,14 @@
         </div>
     </div>
     <div class="footer">
-        <div class="container">
-            <div class="footer-grids">
-                <p>Copyright &copy; 2015 –
+        
+            
+                <p class="text-center">Copyright &copy; 2015 –
                     <?php echo date('Y'); ?>. All rights reserved to Cibi Enterprises.</p>
                 <div class="clearfix"> </div>
                 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-            </div>
-        </div>
+        
+        
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.2.1.4.min.js"></script>
@@ -504,24 +527,9 @@
     <script src="js/responsiveslides.min.js"></script>
 
     <script type="text/javascript">
-					$(document).ready(function() {
-					    $('#menuFixed').scrollToFixed();
-
-							$("#sesame-oil").responsiveSlides({
-							    auto: true,
-							    pager: true,
-							    nav: true,
-							    speed: 500,
-							    namespace: "callbacks",
-							    before: function() {
-							        $('.events').append("<li>before event fired.</li>");
-							    },
-							    after: function() {
-							        $('.events').append("<li>after event fired.</li>");
-							    }
-							});
-					});
-
+		$(document).ready(function() {
+		    $('#menuFixed').scrollToFixed();
+		});
     </script>
 
     <script type="text/javascript">
