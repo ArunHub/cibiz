@@ -162,34 +162,42 @@
    <!-- murunga-powder -->
 
     <section class="whitesection murunga-powder">
-    	<div class="container">
+    	<div class="container-fluid">
     		<div class="row">
-    			<div class="col-md-5">
-    				<figure class="text-center">
-    					<img src="images/murunga-powder.png" alt="" class="img-responsive center-block">
-    				</figure>
-    			</div>
-    			<div class="col-md-7">
+    			<div class="col-md-12">
                     <div class="intro-text">
                         <h1>Introducing <span>Cibiz N<sup>2</sup><small>Natural Nutrition</small></span></h1>
-        				<h2>Organic Moringa Oleifera Powder <span class="orange">MURUNGA LEAF POWDER</span> from freshly harvested organic leaves.</h2>
-        				<div class="murunga-powder-content">
-                            <p>This powder is abundant with vitamins, minerals complete amino-acids and dietary fibre.</p>
-                            <p><strong>Benefits:</strong> </p>
-                            <ul>
-                                <li><span>&gt;</span>Moringa powder increases appetite, boosts stamina, lowers cholesterol, treats depression, improves immunity, excretes toxins, heals wounds, and a source of anti-oxidant.</li>
-                                <li><span>&gt;</span>Moringa soup builds immunity power against joint pain, mouth ulcer, stomach ulcer, fever and eye diseases.</li>
-                            </ul>
-                            <p><strong>Usage:</strong></p>
-                            <ul>
-                                <li><span>&gt;</span>Enjoy among others, a delicious Moringa drink, with half a teaspoon of Moringa powder,</li>
-                                <li><span>&gt;</span>Add a teaspoon of honey,</li>
-                                <li><span>&gt;</span>Squeeze a little of lemon, mix them together and add water.</li>
-                                <li><span>&gt;</span>You can also drop a spoon of Moringa into your soup after cooking.</li>
-                            </ul>    
+                        <h2>Organic Moringa Oleifera Powder <span class="orange">MURUNGA LEAF POWDER</span> from freshly harvested organic leaves.</h2>
+                        <div class="murunga-powder-content">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-4">
+                                    <figure class="text-center">
+                                        <img src="images/murunga-powder1.png" alt="" class="img-responsive center-block">
+                                    </figure>
+                                </div>
+                                <div class="col-md-7 col-lg-4">
+                                    <p>This powder is abundant with vitamins, minerals complete amino-acids and dietary fibre.</p>
+                                    <p><strong>Benefits:</strong> </p>
+                                    <ul>
+                                        <li><span>&gt;</span>Moringa powder increases appetite, boosts stamina, lowers cholesterol, treats depression, improves immunity, excretes toxins, heals wounds, and a source of anti-oxidant.</li>
+                                        <li><span>&gt;</span>Moringa soup builds immunity power against joint pain, mouth ulcer, stomach ulcer, fever and eye diseases.</li>
+                                    </ul>
+                                    <p><strong>Usage:</strong></p>
+                                    <ul>
+                                        <li><span>&gt;</span>Enjoy among others, a delicious Moringa drink, with half a teaspoon of Moringa powder,</li>
+                                        <li><span>&gt;</span>Add a teaspoon of honey,</li>
+                                        <li><span>&gt;</span>Squeeze a little of lemon, mix them together and add water.</li>
+                                        <li><span>&gt;</span>You can also drop a spoon of Moringa into your soup after cooking.</li>
+                                    </ul> 
+                                </div>   
+                                <div class="col-md-5 col-lg-4">
+                                    <h3>For more details, watch the video:</h3>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/rnlcnkBGOeY?rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
-    			</div>
+                </div>
     		</div>
     	</div>
     </section>
