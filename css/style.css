@@ -265,14 +265,18 @@ span.second {
 }
 
 .features-grid-info {
-    margin: 3em 0;
+    margin: 1em 0;
 }
 
 .features-info p {
     color: #282528;
     text-align: justify;
-
+    margin-bottom: 0;
     line-height: 1.8em;
+}
+
+.features-info span {
+  text-shadow: 1px 1px 1px black;
 }
 
 

@@ -286,20 +286,26 @@
                     </div>
                     <div class="features-grid-info">
                         <div class="col-md-12 features-info">
-                            <p><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Improves good monounsaturated and polyunsaturated fats in blood.</p>
+                            <p><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> There is now sufficient awareness that it is inane to substitute sesame oil with improved olive oil in Indian recipes and compromise on the taste of the food.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
                 </div>
                 <div class="col-md-4 features-grid">
                     <figure class="text-center">
-                        <img src="images/benefits-cold-pressed-sesame-oil.png" class="img-responsive center-block" title="features-demo" />
+                        <img src="images/benefits-cold-pressed-sesame-oil1.png" class="img-responsive center-block" title="features-demo" />
                     </figure>
                 </div>
                 <div class="col-md-4 features-grid">
                     <div class="features-grid-info">
                         <div class="col-md-12 features-info">
                             <p><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> The high viscosity of this oil helps it to penetrate deep into the skin and nourishes it from within.</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="features-grid-info">
+                        <div class="col-md-12 features-info">
+                            <p><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Improves good monounsaturated and polyunsaturated fats in blood.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -312,12 +318,6 @@
                     <div class="features-grid-info">
                         <div class="col-md-12 features-info">
                             <p><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Several Indians are now waking up to age-old methods of oil extraction especially after the olive oil lobby began trumpeting terms such as ‘cold-pressed’ and ‘extra virgin’.</p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="features-grid-info">
-                        <div class="col-md-12 features-info">
-                            <p><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> There is now sufficient awareness that it is inane to substitute sesame oil with improved olive oil in Indian recipes and compromise on the taste of the food.</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
