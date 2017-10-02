@@ -11,8 +11,6 @@
     <link rel="shortcut icon" href="images/favicon.png" />
     <!-- Custom Theme files -->
     <link href="css/style.css" rel='stylesheet' type='text/css' />
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
     <!--webfont-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700' rel='stylesheet' type='text/css'>
     <script>
@@ -532,23 +530,19 @@
     <script src="js/jquery-scrolltofixed-min.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
+    <!-- <script src="js/responsiveslides.min.js"></script> -->
 
     <script type="text/javascript">
 		$(document).ready(function() {
 		    $('#menuFixed').scrollToFixed();
-		});
-    </script>
 
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $(".scroll").click(function(event) {
-            event.preventDefault();
-            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-        });
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
 
-        $().UItoTop({ easingType: 'easeOutQuart' });
-    });
+                $().UItoTop({ easingType: 'easeOutQuart' });
+    		});
     </script>
 
     <!--start-top-nav-script-->
