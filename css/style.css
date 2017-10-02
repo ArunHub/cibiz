@@ -28,6 +28,19 @@ body a {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Latha';
+    src: url('Latha.eot');
+    src: local('../fonts/Latha'),
+        url('../fonts/Latha.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Latha.woff2') format('woff2'),
+        url('../fonts/Latha.woff') format('woff'),
+        url('../fonts/Latha.ttf') format('truetype'),
+        url('../fonts/Latha.svg#Latha') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .glyphicon-tint,
 .glyphicon-heart {
     color: #ffcc00;
@@ -44,6 +57,12 @@ img {
 
 .green {
     color: #005d21;
+}
+
+.latha{
+    font-family: 'Latha';
+    font-style: normal;
+    font-size: 0.9em;
 }
 
 

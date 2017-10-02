@@ -90,7 +90,7 @@
                                 
                                     <ul>
                                         <li><span>&gt;</span>Extracted using Wooden Mortar and Pestle </li>
-                                        <li><span>&gt;</span>Also called as Mara-Chekku Nallennai (in Tamil) </li>
+                                        <li><span>&gt;</span>Also called as Mara-Chekku Nallennai <i class="latha">(மறக்செக்கு நல்லெண்ணெய்)</i> </li>
                                     </ul>
                                
                                
