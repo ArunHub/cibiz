@@ -34,7 +34,7 @@
 <body>
     <!---start-container->
 			<!-header-section-->
-    <div class="page-scroll">
+    <div class="">
         <a class="sample scroll" href="#contact">
             <ul class="list-unstyled">
                 <li>S</li>
@@ -59,19 +59,19 @@
             <div class="container">
                 <div class="top-header">
                     <div class="logo">
-                        <h1><a href="#"><img src="images/logo.png" title="Cibiz N2 Natural Nutrition" /></a></h1>
+                        <h1><a href="#"><img class="logo-reveal" src="images/logo.png" title="Cibiz N2 Natural Nutrition" /></a></h1>
                     </div>
                     <nav class="top-nav" id="menuFixed">
                         <ul class="top-nav">
                             <li class="active"><a href="#home" class="scroll">Home </a></li>
-                            <li class="page-scroll"><a href="#natural" class="scroll">Natural Nutrition</a></li>
-                            <li class="page-scroll"><a href="#versus" class="scroll">Refined Vs cold pressed oil</a></li>
-                            <li class="page-scroll"><a href="#health" class="scroll">Health Benefits</a></li>
-                            <li class="page-scroll"><a href="#gallery" class="scroll">Gallery</a></li>
+                            <li class=""><a href="#natural" class="scroll">Natural Nutrition</a></li>
+                            <li class=""><a href="#versus" class="scroll">Refined Vs cold pressed oil</a></li>
+                            <li class=""><a href="#health" class="scroll">Health Benefits</a></li>
+                            <li class=""><a href="#gallery" class="scroll">Gallery</a></li>
                             <!-- 
-								<li class="page-scroll"><a href="#video" class="scroll">Videos</a></li>			 -->
-                            <li class="page-scroll"><a href="#about" class="scroll">About</a></li>
-                            <li class="contatct-active page-scroll"><a href="#contact" class="scroll">Contact</a></li>
+								<li class=""><a href="#video" class="scroll">Videos</a></li>			 -->
+                            <li class=""><a href="#about" class="scroll">About</a></li>
+                            <li class="contatct-active "><a href="#contact" class="scroll">Contact</a></li>
                         </ul>
                         <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
                     </nav>
@@ -94,14 +94,14 @@
                                     </ul>
                                
                                
-                                <div class="big-btns page-scroll">
+                                <div class="big-btns ">
                                     <a class="btn btn-invert teal" href="#">Buy Now</a>
                                     <a class="btn btn-invert teal scroll" href="#health">More Benefits</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <img src="images/cold-pressed-sesame-oil.png" class="img-responsive center-block" title="demo" />
+                            <img src="images/cold-pressed-sesame-oil.png" class="img-responsive center-block sesame-reveal" title="demo" />
                         </div>
                         </div>
             </div>
@@ -115,7 +115,7 @@
     		<div class="row">
     			<div class="col-md-5">
     				<figure class="text-center">
-    					<img src="images/ground-nut-oil.png" alt="" class="img-responsive center-block">
+    					<img src="images/ground-nut-oil.png" alt="" class="groundnut-reveal img-responsive center-block">
     				</figure>
     			</div>
     			<div class="col-md-7">
@@ -150,7 +150,7 @@
     			</div>
     			<div class="col-md-5">
     				<figure class="text-center">
-    					<img src="images/coconutoil.png" alt="" class="img-responsive center-block">
+    					<img src="images/coconutoil.png" alt="" class="coconut-reveal img-responsive center-block">
     				</figure>
     			</div>
     		</div>
@@ -170,7 +170,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-lg-4">
                                     <figure class="text-center">
-                                        <img src="images/murunga-powder1.png" alt="" class="img-responsive center-block">
+                                        <img src="images/murunga-powder1.png" alt="" class="murunga-reveal img-responsive center-block">
                                     </figure>
                                 </div>
                                 <div class="col-md-7 col-lg-4">
@@ -291,7 +291,7 @@
                 </div>
                 <div class="col-md-4 features-grid">
                     <figure class="text-center">
-                        <img src="images/benefits-cold-pressed-sesame-oil1.png" class="img-responsive center-block" title="features-demo" />
+                        <img src="images/benefits-cold-pressed-sesame-oil1.png" class="benefits-sesame-reveal img-responsive center-block" title="features-demo" />
                     </figure>
                 </div>
                 <div class="col-md-4 features-grid">
@@ -530,7 +530,7 @@
     <script src="js/jquery-scrolltofixed-min.js"></script>
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
-    <!-- <script src="js/responsiveslides.min.js"></script> -->
+    <script src="js/scrollreveal.min.js"></script>
 
     <script type="text/javascript">
 		$(document).ready(function() {
@@ -542,7 +542,37 @@
             });
 
                 $().UItoTop({ easingType: 'easeOutQuart' });
-    		});
+    		
+
+            window.sr = ScrollReveal({ reset: true, duration: 2000, mobile: false, });
+            sr.reveal('.logo-reveal', {
+                origin: 'top',
+                duration: 1000,
+                distance: '150px',
+                easing: 'cubic-bezier(0.18, 0.89, 0.32, 1.28)'
+            });
+            sr.reveal('.sesame-reveal', {
+                origin: 'right',
+                distance: '100px'
+            });
+            sr.reveal('.groundnut-reveal', {
+                origin: 'left',
+                distance: '100px'
+            });
+            sr.reveal('.coconut-reveal', {
+                origin: 'right',
+                distance: '100px'
+            });
+            sr.reveal('.murunga-reveal', {
+                origin: 'left',
+                distance: '100px'
+            });
+            sr.reveal('.benefits-sesame-reveal', {
+                origin: 'bottom',
+                distance: '100px'
+            });
+            sr.reveal('.glyphicon', { duration: 3000, origin: 'top' }, 50);
+            });
     </script>
 
     <!--start-top-nav-script-->
