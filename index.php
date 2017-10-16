@@ -63,11 +63,11 @@
                     </div>
                     <nav class="top-nav" id="menuFixed">
                         <ul class="top-nav">
-                            <li class="active"><a href="#home" class="scroll">Home </a></li>
-                            <li class=""><a href="#natural" class="scroll">Natural Nutrition</a></li>
-                            <li class=""><a href="#versus" class="scroll">Refined Vs cold pressed oil</a></li>
-                            <li class=""><a href="#health" class="scroll">Health Benefits</a></li>
-                            <li class=""><a href="#gallery" class="scroll">Gallery</a></li>
+                            <li><a href="#home" class="scroll active">Home </a></li>
+                            <li><a href="#natural" class="scroll">Natural Nutrition</a></li>
+                            <li><a href="#versus" class="scroll">Refined Vs cold pressed oil</a></li>
+                            <li><a href="#health" class="scroll">Health Benefits</a></li>
+                            <li><a href="#gallery" class="scroll">Gallery</a></li>
                             <!-- 
 								<li class=""><a href="#video" class="scroll">Videos</a></li>			 -->
                             <li class=""><a href="#about" class="scroll">About</a></li>
@@ -208,15 +208,15 @@
             </div>
             <div class="row text-justify">
                 <div class="col-sm-6">
-                    <p><span class="glyphicon glyphicon-tint"></span> Oil extraction processes have evolved over the last thousands of years, to enhance output, yield and appearance.</p>
-                    <p><span class="glyphicon glyphicon-tint"></span> Refined oil that you commonly use as cooking medium in today is extracted under higher temperatures.</p>
-                    <p><span class="glyphicon glyphicon-tint"></span> This degrades its flavour, nutritional value, and colour. Refining, introduces harmful Trans-fats in an attempt to improve shelf life for commercial reasons.</p>
-                    <p><span class="glyphicon glyphicon-tint"></span> In the process, the natural properties and benefits provided have been traded off and the oil also loses several beneficial ingredients.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> Oil extraction processes have evolved over the last thousands of years, to enhance output, yield and appearance.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> Refined oil that you commonly use as cooking medium in today is extracted under higher temperatures.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> This degrades its flavour, nutritional value, and colour. Refining, introduces harmful Trans-fats in an attempt to improve shelf life for commercial reasons.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> In the process, the natural properties and benefits provided have been traded off and the oil also loses several beneficial ingredients.</p>
                 </div>
                 <div class="col-sm-6">
-                    <p><span class="glyphicon glyphicon-tint"></span> <strong class="cibifont">Cibiz N<sup>2</sup> Natural Nutrition</strong> in its Mara chekku (Ghani) process, the animal movement is replaced by electro mechanical power transmission with a regulated speed control to yield natural or virgin sesame oil with all its properties intact.</p>
-                    <p><span class="glyphicon glyphicon-tint"></span> Being an end to end natural extraction process, there is no use of any refining bleaching, or deodorizing agent. The oil thus retains its original unique aroma, rich flavour & colour and all its nutritional value all needed for good health.</p>
-                    <p><span class="glyphicon glyphicon-tint"></span> It is suited for Natural Nutrition.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> <strong class="cibifont">Cibiz N<sup>2</sup> Natural Nutrition</strong> in its Mara chekku (Ghani) process, the animal movement is replaced by electro mechanical power transmission with a regulated speed control to yield natural or virgin sesame oil with all its properties intact.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> Being an end to end natural extraction process, there is no use of any refining bleaching, or deodorizing agent. The oil thus retains its original unique aroma, rich flavour & colour and all its nutritional value all needed for good health.</p>
+                    <p><span class="glyphicon glyphicon-tint yellow-tint"></span> It is suited for Natural Nutrition.</p>
                 </div>
             </div>
         </div>
@@ -526,71 +526,20 @@
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-scrolltofixed-min.js"></script>
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script src="js/scrollreveal.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- <script src="js/jquery-scrolltofixed-min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/move-top.js"></script> -->
+    <script type="text/javascript" src="js/scroll-easing-reveal.js"></script>
+    <!-- <script src="js/scrollreveal.min.js"></script> -->
 
     <script type="text/javascript">
-		$(document).ready(function() {
-		    $('#menuFixed').scrollToFixed();
 
-            $(".scroll").click(function(event) {
-                event.preventDefault();
-                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-            });
-
-                $().UItoTop({ easingType: 'easeOutQuart' });
-    		
-
-            window.sr = ScrollReveal({ reset: true, duration: 2000, mobile: false, });
-            sr.reveal('.logo-reveal', {
-                origin: 'top',
-                duration: 1000,
-                distance: '150px',
-                easing: 'cubic-bezier(0.18, 0.89, 0.32, 1.28)'
-            });
-            sr.reveal('.sesame-reveal', {
-                origin: 'right',
-                distance: '100px'
-            });
-            sr.reveal('.groundnut-reveal', {
-                origin: 'left',
-                distance: '100px'
-            });
-            sr.reveal('.coconut-reveal', {
-                origin: 'right',
-                distance: '100px'
-            });
-            sr.reveal('.murunga-reveal', {
-                origin: 'left',
-                distance: '100px'
-            });
-            sr.reveal('.benefits-sesame-reveal', {
-                origin: 'bottom',
-                distance: '100px'
-            });
-            sr.reveal('.glyphicon', { duration: 3000, origin: 'top' }, 50);
-            });
     </script>
 
     <!--start-top-nav-script-->
     <script>
     $(function() {
-        var pull = $('#pull');
-        menu = $('nav ul');
-        menuHeight = menu.height();
-        $(pull).on('click', function(e) {
-            e.preventDefault();
-            menu.slideToggle();
-        });
-        $(window).resize(function() {
-            var w = $(window).width();
-            if (w > 320 && menu.is(':hidden')) {
-                menu.removeAttr('style');
-            }
-        });
+        
     });
     </script>
     <!--//End-top-nav-script-->

@@ -127,7 +127,7 @@ h5 {
     font-weight: 700;
 }
 
-.top-nav ul li.active a,
+.top-nav ul li a.active,
 .top-nav ul li a:hover {
     color: #FFF;
 }
@@ -912,7 +912,7 @@ span.second {
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {
-    .murunga-powder-content:before,
+/*    .murunga-powder-content:before,
 .murunga-powder-content:after {
     position: absolute;
     content: "";
@@ -930,7 +930,7 @@ span.second {
 .murunga-powder-content:after {
     bottom: 15px;
     top: auto;
-}
+}*/
 }
 
 
@@ -996,10 +996,10 @@ span.second {
         text-align: left;
     }
 
-    .murunga-powder-content:before,
+/*    .murunga-powder-content:before,
     .murunga-powder-content:after {
         content: none;
-    }
+    }*/
 
 }
 
