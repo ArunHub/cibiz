@@ -32,50 +32,51 @@ $(document).ready(function() {
         }, 3000, 'easeOutQuart');
     });
 
-    window.sr = ScrollReveal({
-        reset: true,
-        duration: 2000,
-        mobile: false
-    });
-    sr.reveal('.logo-reveal', {
-        origin: 'top',
-        duration: 1000,
-        distance: '150px',
-        easing: 'cubic-bezier(0.18, 0.89, 0.32, 1.28)'
-    });
-    sr.reveal('.sesame-reveal', {
-        origin: 'right',
-        distance: '100px'
-    });
-    sr.reveal('.groundnut-reveal', {
-        origin: 'left',
-        distance: '100px'
-    });
-    sr.reveal('.coconut-reveal', {
-        origin: 'right',
-        distance: '100px'
-    });
-    sr.reveal('.murunga-reveal', {
-        origin: 'left',
-        distance: '100px'
-    });
-    sr.reveal('.benefits-sesame-reveal', {
-        origin: 'bottom',
-        distance: '100px'
-    });
-    sr.reveal('.glyphicon-tint', {
-        duration: 2000,
-        origin: 'top'
-    }, 100);
-    sr.reveal('.yellow-tint', {
-        duration: 2000,
-        origin: 'top'
-    }, 100);
-    sr.reveal('.glyphicon-heart', {
-        duration: 2000,
-        scale: 0.3
-    }, 150);
-
+    if (document.documentElement.clientWidth > 768) {
+	    window.sr = ScrollReveal({
+	        reset: true,
+	        duration: 2000,
+	        mobile: false
+	    });
+	    sr.reveal('.logo-reveal', {
+	        origin: 'top',
+	        duration: 1000,
+	        distance: '150px',
+	        easing: 'cubic-bezier(0.18, 0.89, 0.32, 1.28)'
+	    });
+	    sr.reveal('.sesame-reveal', {
+	        origin: 'right',
+	        distance: '100px'
+	    });
+	    sr.reveal('.groundnut-reveal', {
+	        origin: 'left',
+	        distance: '100px'
+	    });
+	    sr.reveal('.coconut-reveal', {
+	        origin: 'right',
+	        distance: '100px'
+	    });
+	    sr.reveal('.murunga-reveal', {
+	        origin: 'left',
+	        distance: '100px'
+	    });
+	    sr.reveal('.benefits-sesame-reveal', {
+	        origin: 'bottom',
+	        distance: '100px'
+	    });
+	    sr.reveal('.glyphicon-tint', {
+	        duration: 2000,
+	        origin: 'top'
+	    }, 100);
+	    sr.reveal('.yellow-tint', {
+	        duration: 2000,
+	        origin: 'top'
+	    }, 100);
+	    sr.reveal('.glyphicon-heart', {
+	        duration: 2000,
+	        scale: 0.3
+	    }, 150);
+		}
     var pull = $('#pull');
     menu = $('nav ul');
     menuHeight = menu.height();

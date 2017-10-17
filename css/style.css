@@ -395,16 +395,6 @@ span.second {
     z-index: 10;
 }
 
-.gallery-info img:hover {
-    -webkit-box-shadow: 0px 21px 15px -10px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 21px 15px -10px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 21px 15px -10px rgba(0, 0, 0, 0.4);
-    transform: scale(1.2);
-    z-index: 15;
-    border-style: inset;
-}
-
-
 .gallery-info img.member-pic {
     width: 100%;
 }
@@ -729,6 +719,7 @@ span.second {
     }
     nav.top-nav li a {
         border-bottom: 1px solid #eee;
+        line-height: 30px;
     }
     nav.top-nav a#pull {
         display: block;
@@ -748,8 +739,11 @@ span.second {
         top: 10px;
     }
 
-    .top-nav ul li a {
+    .top-nav ul li a{
         color: #2C3E50;
+    }
+    .top-nav ul li a.active {
+        color: #FC0;
     }
 }
 
@@ -898,6 +892,15 @@ span.second {
 @media only screen and (min-width: 768px) {
     .sesame-oil .intro-text {
         padding-left: 20px;
+    }
+
+    .gallery-info img:hover {
+        -webkit-box-shadow: 0px 21px 15px -10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0px 21px 15px -10px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 21px 15px -10px rgba(0, 0, 0, 0.4);
+        transform: scale(1.2);
+        z-index: 15;
+        border-style: inset;
     }
 }
 
