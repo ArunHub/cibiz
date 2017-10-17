@@ -514,37 +514,18 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        
-            
-                <p class="text-center">Copyright &copy; 2015 –
-                    <?php echo date('Y'); ?>. All rights reserved to Cibi Enterprises.</p>
-                <div class="clearfix"> </div>
-                <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-        
-        
+    <div class="footer"> 
+        <p class="text-center">Copyright &copy; 2015 – <?php echo date('Y'); ?>. All rights reserved to Cibi Enterprises.</p>
+        <div class="clearfix"> </div>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <!-- <script src="js/jquery-scrolltofixed-min.js"></script> -->
     <!-- <script type="text/javascript" src="js/move-top.js"></script> -->
     <script type="text/javascript" src="js/scroll-easing-reveal.js"></script>
     <!-- <script src="js/scrollreveal.min.js"></script> -->
-
-    <script type="text/javascript">
-
-    </script>
-
-    <!--start-top-nav-script-->
-    <script>
-    $(function() {
-        
-    });
-    </script>
-    <!--//End-top-nav-script-->
-
-
 </body>
 
 </html>
